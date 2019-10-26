@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+body{
+  background: url(../img/boder.png), url(../img/boder0.png);
+  background-repeat: repeat-x , repeat-x;
+  background-position: 0% 10% ,  0% 90%;
+
+}
+.warrper{
+  margin:auto;
+  width: 800px;
+}
+h1{
+  background: url(../img/kohi1.png) no-repeat;
+  float: left;
+  margin-top:20px;
+  padding-left: 70px;
+  height: 100px;
+  font-family: 'Vibes', cursive;
+}
+
+ul{
+  float: right;
+  overflow: hidden;
+  margin-top:20px;
+}
+ul li {
+  float: left;
+  margin:10px;
+  font-family: 'Vibes', cursive;
+font-family: 'Noto Serif JP', serif;
+}
+
+footer{
+
+  height:100px;
+  margin-top: 2rem;
+}
+header {
+  overflow:hidden;
+  height: 100px;
+  margin-top: 2rem;
+
+}
+.cafebox{
+  background: url(../img/cafe.jpg);
+  width: 800px;
+  height: 500px;
+  text-align: center;
+
+}
+span {
+position: relative;
+font-size: 3rem;
+top: 200px;
+font-family: 'Vibes', cursive;
+color: #f6bfbc;
+
+}
+.overbig{
+  overflow: hidden;
+
+}
+.smal1{
+  overflow: hidden;
+  width: 400px;
+    float: left;
+}
+.cafe1{
+  background: url(../img/dorink.jpg) ;
+  background-repeat: no-repeat;
+  background-size: 400px 200px;
+  float: left;
+  width: 400px;
+  height: 200px;
+}
+.cafe2{
+  background: url(../img/kixtuin.jpg);
+  background-repeat: no-repeat;
+  background-size: 400px 200px;
+  float: left;
+  width: 400px;
+  height: 200px;
+}
+.cafe3{
+  background: url(../img/tukue.jpg);
+  background-repeat: no-repeat;
+  background-size: 400px 400px;
+  float: left;
+  width: 400px;
+  height: 400px;
+}
+.flexbox1 {
+  display: flex;
+  justify-content: space-around;
+}
+p{
+  font-family: 'Vibes', cursive;
+font-family: 'Noto Serif JP', serif;
+}
